@@ -1,8 +1,52 @@
-he_main_sub {
-  color: red;
+
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.he_main {
+  height: 20vh;
+  width: 100vw;
+  background-color: aqua;
+}
+
+.he_main .he_main_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center {
+  height: 60vh;
+  width: 100vw;
+  background-color: blue;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bottom {
+  height: 20vh;
+  width: 100%;
+  background-color: palegreen;
 }
 
 
-h1 {
-  color: blue;
-}
+/*# sourceMappingURL=style.css.map */
