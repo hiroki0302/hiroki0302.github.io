@@ -71,3 +71,29 @@ body {
   background-color: palegreen;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* #works .works-list {
+  display: flex;
+  padding: 20px;
+} */
+
+/* #works .works-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 125);
+  border-radius: .25rem;
+}
+
+.card-image {
+  display: block;
+  margin-bottom: 8px;
+  height: 245px;
+} */
