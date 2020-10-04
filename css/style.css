@@ -13,6 +13,7 @@ body {
   letter-spacing: .8px;
   word-break: break-all;
   color: #333;
+  background-color: #f3f3f3;
 }
 
 a {
@@ -38,7 +39,7 @@ img {
 .card-image {
   display: block;
   width: 50vw;
-  height: 100%;
+  height: 80%;
   padding-bottom: 30px;
 }
 
@@ -54,6 +55,8 @@ li {
 .sp-only {
   display: none;
 }
+
+
 
 /*--------------------------------
  文字
@@ -76,17 +79,18 @@ li {
 .section-lead {
   margin-bottom: 40px;
   text-align: center;
+  font-size: 20px;
 }
 
 /*--------------------------------
  レイアウト
 ---------------------------------*/
-.wrapper {
-  background-color: #fff;
-}
+/* .wrapper {
+  background-color: #f3f3f3;
+} */
 
 .section {
-  padding: 120px 0;
+  padding: 70px 0;
 }
 
 .inner {
@@ -181,7 +185,7 @@ li {
   left: 0;
   width: 100%;
   transform: translate3d(0, 0, 0);
-  background-color: #fff;
+  background-color: #b9b7b7;
   -webkit-box-shadow: 0 5px 7px -3px rgba(0, 0, 0, .1);
   box-shadow: 0 5px 7px -3px rgba(0, 0, 0, .1);
 }
@@ -240,10 +244,10 @@ li {
   min-width: 0;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid red;
+  border: 2px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   margin: 0 20px;
-  padding-bottom: 50px;
+  padding-bottom: 8vh;
 }
 
 .works-body {
@@ -251,17 +255,17 @@ li {
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 25px;
   font-weight: bold;
-  margin-top: 8px;
+  margin: 5px;
 }
 
 .works-text {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .works-url {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 /*--------------------------------
@@ -282,8 +286,19 @@ li {
   margin-right: 40px;
 }
 
+.about-image {
+  border-radius: 140px;
+}
+
 .about-body {
   flex: 1;
+  border: 2px solid rgba(0,0,0,.125);
+  background-color: #fff;
+  padding: 15px 20px;
+}
+
+#animation {
+  
 }
 
 .about-body p:not(:last-child) {
@@ -306,15 +321,17 @@ li {
 
 .skill-item {
   display: flex;
-  flex: 0 0 46%;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 2px solid rgba(0,0,0,.125);
+  background-color: #fff;
+  padding-bottom: 20px;
 }
 
 .skill-image-wrapper {
   flex: 0 0 60px;
-  margin-right: 20px;
+  margin: 15px 30px 0 20px;
 }
 
 .skill-body {
@@ -326,7 +343,8 @@ li {
 }
 
 .skill-title {
-  margin-bottom: 3px;
+  margin: 10px 0 5px 0;
+  font-size: medium;
 }
 
 .rate {
@@ -405,6 +423,7 @@ li {
 
 .contact-image {
   width: 50px;
+  border-radius: 15px;
 }
 
 .contact-text {
@@ -606,3 +625,4 @@ li {
     padding: 20px 0;
   }
 }
+
